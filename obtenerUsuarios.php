@@ -14,6 +14,6 @@
         $datos[] = $resultado;
     }
     
-    echo json_encode($datos);
-    //echo json_encode(array("usuarios" => $datos));
+    //echo json_encode($datos);
+    echo json_encode(array("Usuarios" => $datos));
 ?>
